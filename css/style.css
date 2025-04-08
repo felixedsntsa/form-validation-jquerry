@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    background: #f7ddcc;
+}
+
+form{
+    padding: 30px;
+    background: white;
+    color: black;
+    border-radius: 15px;
+    width: 350px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    box-shadow: 6px 9px 15px rgba(76, 75, 75, 0.3);
+}
+
+h2{
+    color: #e59f6e;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form label,
+form input,
+form button{
+    border: none;
+    margin-bottom: 3px;
+    display: block;
+    width: 100%;
+}
+
+form label{
+    margin-top: 10px;
+}
+
+form input{
+    background: white;
+    color: black;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #7e7c7c;
+    outline: none;
+}
+
+form button{
+    padding: 10px;
+    background-color: #e19f73;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+form .error{
+    color: #ff0000;
+}
+
+.input-error {
+    border: 2px solid #ff6b6b;
+    background-color: #ffe5e5;
+}
